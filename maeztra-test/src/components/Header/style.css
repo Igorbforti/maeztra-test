@@ -1,0 +1,199 @@
+.top-header {
+    background-color: #353535;
+    font-weight: 400;
+    font-size: 12px;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header-text {
+    color: #fff;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 88px;
+
+    box-shadow: 0px 4px 6px 0px #00000014;
+}
+
+.search-bar-box {
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    width: 791px;
+}
+
+.search-bar {
+    height: 40px;
+    width: 672px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    background-color: #EFEFEF;
+    padding-left: 24px;
+    font-size: 12px;
+    outline: none;
+}
+
+.search-button {
+    height: 40px;
+    width: 119px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #FAA500;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-account-box .my-account-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #353535;
+    padding-left: 23px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-account-box .my-favorite-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #353535;
+    padding-left: 23px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-account-box .my-minicart-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #353535;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    border: 1px solid #FAA500;
+
+    width: 134px;
+    height: 46px;
+}
+
+.my-account-link:before {
+    content: "";
+    display: block;
+
+    background-image: url("../../assets/images/login-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 14px;
+    height: 16px;
+
+    position: absolute;
+    left: 0;
+}
+
+.my-favorite-link:before {
+    content: "";
+    display: block;
+
+    background-image: url("../../assets/images/fav-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 19px;
+    height: 16px;
+
+    position: absolute;
+    left: 0;
+}
+
+.my-minicart-link:before {
+    content: "";
+    display: block;
+
+    background-image: url("../../assets/images/minicart-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 15px;
+    height: 16px;
+
+    position: relative;
+    right: 5px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 13px 300px;
+}
+
+.menu-news {
+    color: #FAA500;
+    text-decoration: none;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-news:before {
+    content: "";
+    display: block;
+
+    background-image: url("../../assets/images/dress-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 12px;
+    height: 15px;
+
+    position: relative;
+    right: 9px;
+}
+
+.menu-content {
+    text-decoration: none;
+    font-size: 14px;
+    color: #353535;
+}
+
+@media screen and (max-width: 768px) {
+    .main-header {
+        display: none;
+    }
+
+    .main-header-mobile {
+        width: 100%;
+        height: 88px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 4px 6px 0px #00000014;
+    }
+
+    .menu-header {
+        display: none;
+    }
+}

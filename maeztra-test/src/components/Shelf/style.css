@@ -1,0 +1,17 @@
+.shelf {
+    max-width: 1598px;
+    margin: auto;
+}
+
+.shelf-title {
+    text-align: center;
+    margin: 80px 0 24px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .shelf-title {
+        font-size: 24px;
+    }
+}

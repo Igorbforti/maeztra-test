@@ -1,0 +1,118 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000000B2;
+}
+
+.modal-window {
+    width: 848px;
+    height: 529px;
+    background-color: #fff;
+
+    display: flex;
+
+    position: fixed;
+    top: 20%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-link {
+    position: absolute;
+    right: 0;
+    top: -25px;
+
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 322px;
+    margin: 0 48px;
+}
+
+.modal-title {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.modal-text {
+    font-size: 23px;
+}
+
+.modal-text-bold {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.modal-input {
+    width: 322px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    outline: none;
+    font-size: 12px;
+    margin-bottom: 12px;
+    padding-left: 14px;
+}
+
+.modal-btn {
+    width: 322px;
+    height: 40px;
+    background-color: #faa500;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+}
+
+.modal-btn:after {
+    background-image: url("../../assets/images/send-icon.svg");
+    background-repeat: no-repeat;
+    content: "";
+    
+    width: 12px;
+    height: 20px;
+
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .modal-window {
+        width: 298px;
+        height: 307px;
+        display: block;
+        padding: 47px 20px 24px;
+    }
+
+    .modal-desc {
+        width: 100%;
+        margin: 0;
+    }
+
+    .modal-text, .modal-text-bold {
+        font-size: 16px;
+    }
+
+    .modal-input, .modal-btn {
+        width: 258px;
+        padding-left: 0;
+    }
+}
