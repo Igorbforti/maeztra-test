@@ -25,7 +25,7 @@ const Products = () => {
                 dots: false,
                 speed: 500,
                 slidesToShow: 1,
-                slidesToScroll: 5,
+                slidesToScroll: 1,
                 infinite: true
             }
             }
