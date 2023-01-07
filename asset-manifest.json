@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maeztra-test/static/css/main.134677f7.css",
-    "main.js": "/maeztra-test/static/js/main.29c0545f.js",
+    "main.css": "/maeztra-test/static/css/main.95ca0342.css",
+    "main.js": "/maeztra-test/static/js/main.2c5ca367.js",
     "static/media/bg-newsletter.svg": "/maeztra-test/static/media/bg-newsletter.9a3187ef5e0b36017e06476f657b6156.svg",
     "static/media/banner-mobile.svg": "/maeztra-test/static/media/banner-mobile.8abd00a7c7a6e9437e99ba987454bdc2.svg",
     "static/media/banner.svg": "/maeztra-test/static/media/banner.9c26351cc5211f42747062d28c9909e7.svg",
@@ -44,11 +44,11 @@
     "static/media/facebook.svg": "/maeztra-test/static/media/facebook.bed7d4f0aa0ceb0a54bc6f5ea4514b21.svg",
     "static/media/newsletter-mail-icon.svg": "/maeztra-test/static/media/newsletter-mail-icon.503bb4f47057b2cf5e19d572f774d86c.svg",
     "static/media/plus-sign.svg": "/maeztra-test/static/media/plus-sign.a02aa98ff4cb91e7c0f9.svg",
-    "main.134677f7.css.map": "/maeztra-test/static/css/main.134677f7.css.map",
-    "main.29c0545f.js.map": "/maeztra-test/static/js/main.29c0545f.js.map"
+    "main.95ca0342.css.map": "/maeztra-test/static/css/main.95ca0342.css.map",
+    "main.2c5ca367.js.map": "/maeztra-test/static/js/main.2c5ca367.js.map"
   },
   "entrypoints": [
-    "static/css/main.134677f7.css",
-    "static/js/main.29c0545f.js"
+    "static/css/main.95ca0342.css",
+    "static/js/main.2c5ca367.js"
   ]
 }
